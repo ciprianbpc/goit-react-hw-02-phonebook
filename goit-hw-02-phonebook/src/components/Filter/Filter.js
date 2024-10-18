@@ -3,13 +3,14 @@ import './Filter.css';
 
 function Filter({ value, onChange }) {
   return (
-    <input
-      className="Filter"
-      type="text"
-      value={value}
-      onChange={onChange}
-      placeholder="Search contacts"
-    />
+    <div className="Filter">
+      <p>Find contacts by name</p>
+      <input
+        type="text"
+        value={value}
+        onChange={onChange}
+      />
+    </div>
   );
 }
 

@@ -1,8 +1,8 @@
-.Filter {
+.Filter p {
+  margin-bottom: 5px;
+}
+
+.Filter input {
   width: 100%;
-  padding: 8px;
-  font-size: 16px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  margin-bottom: 20px;
+  padding: 5px;
 }
